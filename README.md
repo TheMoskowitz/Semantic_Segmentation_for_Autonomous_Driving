@@ -4,6 +4,8 @@
 
 [***Video_Demo2***](https://drive.google.com/file/d/0B4IPP5tozsLbTXJfN0FoSy1TRWc/view?usp=sharing)
 
+![demo image](http://imgur.com/SmjQZB1)
+
 In this project I wanted to explore the state of the art in semantic segmentation for self-driving cars. Here are the different models I tried out in order from least effective to most effective.
 
 ![Generic diagram of a Unet Model](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/u-net-architecture.png)
