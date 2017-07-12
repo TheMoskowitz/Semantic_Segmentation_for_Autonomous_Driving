@@ -4,7 +4,7 @@
 
 [***Video_Demo2***](https://drive.google.com/file/d/0B4IPP5tozsLbTXJfN0FoSy1TRWc/view?usp=sharing)
 
-![demo image](http://imgur.com/SmjQZB1)
+![demo image](http://i.imgur.com/SmjQZB1.png)
 
 In this project I wanted to explore the state of the art in semantic segmentation for self-driving cars. Here are the different models I tried out in order from least effective to most effective.
 
