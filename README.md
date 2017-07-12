@@ -1,12 +1,12 @@
 # Semantic_Segmentation_for_Autonomous_Driving
 
-[***Demo1***](https://drive.google.com/file/d/0B4IPP5tozsLbenljN3RxS3JGQmc/view?usp=sharing)
+![***Demo1***](https://drive.google.com/file/d/0B4IPP5tozsLbenljN3RxS3JGQmc/view?usp=sharing)
 
-[***Demo2***](https://drive.google.com/file/d/0B4IPP5tozsLbTXJfN0FoSy1TRWc/view?usp=sharing)
+![***Demo2***](https://drive.google.com/file/d/0B4IPP5tozsLbTXJfN0FoSy1TRWc/view?usp=sharing)
 
 In this project I wanted to explore the state of the art in semantic segmentation for self-driving cars. Here are the different models I tried out in order from least effective to most effective.
 
-![Generic diagram of a Unet Model](https://www.google.co.il/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=0ahUKEwi_s62F74PVAhXL5xoKHSqMCR4QjRwIBw&url=https%3A%2F%2Flmb.informatik.uni-freiburg.de%2Fpeople%2Fronneber%2Fu-net%2F&psig=AFQjCNGJtJBT6toBOSyV9MtADvLaUkNBaA&ust=1499953142931791)
+![Generic diagram of a Unet Model](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/u-net-architecture.png)
 
 **Unet_KITTI**: This is a version of a [Unet model](https://arxiv.org/abs/1505.04597) that I trained from scratch on the [KITTI dataset](http://www.cvlibs.net/datasets/kitti/) to distinguish road from non-road. A key point to note -- in the skip connections (where a convolutional layer on the way down is joined with a deconvolutional layer of the same size on the way back up), the two tensors are *concatenated*. I ultimately concluded that this was a less successful approach. In this version I also followed the model laid out in the paper where VALID padding forces you to crop the convolutional tensors in order to combine them with the deconvolutional tensors. This means you lose some information around the edges over the course of your network. It's not a dealbreaker but it's annoying. Alternatively I could have started out by cropping the input image to a size that worked perfectly with the model so no more cropping would be needed but then I'd still be losing that border information.
 
