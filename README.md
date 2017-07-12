@@ -1,8 +1,8 @@
 # Semantic_Segmentation_for_Autonomous_Driving
 
-[***Demo1***](https://drive.google.com/file/d/0B4IPP5tozsLbenljN3RxS3JGQmc/view?usp=sharing)
+[***Video_Demo1***](https://drive.google.com/file/d/0B4IPP5tozsLbenljN3RxS3JGQmc/view?usp=sharing)
 
-[***Demo2***](https://drive.google.com/file/d/0B4IPP5tozsLbTXJfN0FoSy1TRWc/view?usp=sharing)
+[***Video_Demo2***](https://drive.google.com/file/d/0B4IPP5tozsLbTXJfN0FoSy1TRWc/view?usp=sharing)
 
 In this project I wanted to explore the state of the art in semantic segmentation for self-driving cars. Here are the different models I tried out in order from least effective to most effective.
 
