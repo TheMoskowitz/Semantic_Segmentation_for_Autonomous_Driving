@@ -22,3 +22,5 @@ In this project I wanted to explore the state of the art in semantic segmentatio
 
 **Where to go from here**
 There are some very obvious next steps, namely using a bigger dataset and using a better encoder. Even Cityscapes is relatively tiny with under 3,000 training images. A more substantial dataset, say of 30,000-100,000 images from a variety of locations, would make a real difference. Replacing the VGG encoding with Inception or, ideally, a network not trained on imagenet at all but instead on a more relevant dataset (road imagery) and trained to solve a more relevant problem would also likely to boost the accuracy significantly.
+
+This project is "Project #2" in my [Deep Learning Projects](https://www.youtube.com/watch?v=miPyFmr4iCc&t=5s) video.
